@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nepalesehaveli">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".members" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".gallery" />
+        <activity android:name=".mem_ravi" />
+        <activity android:name=".mem_ankit" />
+        <activity android:name=".mem_aman" />
+        <activity android:name=".mem_bikash" />
+        <activity android:name=".mem_chapur" />
+        <activity android:name=".mem_kanhaiya" />
+        <activity android:name=".mem_manoj" />
+        <activity android:name=".mem_nandan" />
+        <activity android:name=".mem_pawan" />
+        <activity android:name=".mem_raviraaz" />
+        <activity android:name=".mem_roshan" />
+        <activity android:name=".mem_sachin" />
+    </application>
+
+</manifest>
