@@ -24,4 +24,146 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.068" />
 
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="395dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:clickable="true"
+                android:onClick="img1"
+                android:layout_width="96dp"
+                android:layout_height="99dp"
+                app:layout_constraintBottom_toBottomOf="@+id/horizontalScrollView"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintVertical_bias="0.272"
+                app:srcCompat="@drawable/ravi" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="96dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/aman" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="96dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/bikash" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="96dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/roshan" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="96dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/ankit" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="96dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/chapur" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="96dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/pawan" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="96dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/sachin" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="96dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/manoj" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDef"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" >
+
+        <TextView
+            android:id="@+id/viewDef"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nothing to show. Click below dude"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/newImgDef"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+    </androidx.cardview.widget.CardView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
