@@ -482,7 +482,7 @@
                     <ImageView
                         android:layout_width="264dp"
                         android:layout_height="286dp"
-                        android:src="@drawable/sachinn"
+                        android:src="@drawable/sachin"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.651"
