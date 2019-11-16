@@ -5,21 +5,13 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
-public class gallery extends AppCompatActivity {
-    ImageView img1 = findViewById(R.id.imageView2);
-    ImageView img2 = findViewById(R.id.imageView3);
-    ImageView img3 = findViewById(R.id.imageView4);
-    ImageView img4 = findViewById(R.id.imageView5);
-    ImageView img5 = findViewById(R.id.imageView6);
-    ImageView img6 = findViewById(R.id.imageView7);
-    ImageView img7 = findViewById(R.id.imageView8);
-    ImageView img8 = findViewById(R.id.imageView9);
-    ImageView img9 = findViewById(R.id.imageView10);
-    TextView def = findViewById(R.id.viewDef);
-    ImageView imgdef = findViewById(R.id.newImgDef);
+import uk.co.senab.photoview.PhotoViewAttacher;
 
+
+public class gallery extends AppCompatActivity {
     @Override
 
 
@@ -31,7 +23,103 @@ public class gallery extends AppCompatActivity {
     }
 
 
-    public void img1(View view) {
 
+    public void img1(View view) {
+        TextView def = findViewById(R.id.viewDef);
+        ImageView imgdef = findViewById(R.id.newImgDef);
+        def.setVisibility(View.GONE);
+        imgdef.setVisibility(View.VISIBLE);
+        imgdef.setImageResource(R.drawable.ravi);
+        PhotoViewAttacher photoAttacher;
+        photoAttacher= new PhotoViewAttacher(imgdef);
+        photoAttacher.update();
+    }
+
+    public void img2(View view) {
+        TextView def = findViewById(R.id.viewDef);
+        ImageView imgdef = findViewById(R.id.newImgDef);
+        def.setVisibility(View.GONE);
+        imgdef.setVisibility(View.VISIBLE);
+        imgdef.setImageResource(R.drawable.aman);
+        PhotoViewAttacher photoAttacher;
+        photoAttacher= new PhotoViewAttacher(imgdef);
+        photoAttacher.update();
+    }
+
+    public void img3(View view) {
+        TextView def = findViewById(R.id.viewDef);
+        ImageView imgdef = findViewById(R.id.newImgDef);
+        def.setVisibility(View.GONE);
+        imgdef.setVisibility(View.VISIBLE);
+        imgdef.setImageResource(R.drawable.bikash);
+        PhotoViewAttacher photoAttacher;
+        photoAttacher= new PhotoViewAttacher(imgdef);
+        photoAttacher.update();
+    }
+
+    public void img4(View view) {
+        TextView def = findViewById(R.id.viewDef);
+        ImageView imgdef = findViewById(R.id.newImgDef);
+        def.setVisibility(View.GONE);
+        imgdef.setVisibility(View.VISIBLE);
+        imgdef.setImageResource(R.drawable.roshan);
+        PhotoViewAttacher photoAttacher;
+        photoAttacher= new PhotoViewAttacher(imgdef);
+        photoAttacher.update();
+    }
+
+    public void img5(View view) {
+        TextView def = findViewById(R.id.viewDef);
+        ImageView imgdef = findViewById(R.id.newImgDef);
+        def.setVisibility(View.GONE);
+        imgdef.setVisibility(View.VISIBLE);
+        imgdef.setImageResource(R.drawable.ankit);
+        PhotoViewAttacher photoAttacher;
+        photoAttacher= new PhotoViewAttacher(imgdef);
+        photoAttacher.update();
+    }
+
+    public void img6(View view) {
+        TextView def = findViewById(R.id.viewDef);
+        ImageView imgdef = findViewById(R.id.newImgDef);
+        def.setVisibility(View.GONE);
+        imgdef.setVisibility(View.VISIBLE);
+        imgdef.setImageResource(R.drawable.chapur);
+        PhotoViewAttacher photoAttacher;
+        photoAttacher= new PhotoViewAttacher(imgdef);
+        photoAttacher.update();
+    }
+
+    public void img7(View view) {
+        TextView def = findViewById(R.id.viewDef);
+        ImageView imgdef = findViewById(R.id.newImgDef);
+        def.setVisibility(View.GONE);
+        imgdef.setVisibility(View.VISIBLE);
+        imgdef.setImageResource(R.drawable.pawan);
+        PhotoViewAttacher photoAttacher;
+        photoAttacher= new PhotoViewAttacher(imgdef);
+        photoAttacher.update();
+    }
+
+    public void img8(View view) {
+        TextView def = findViewById(R.id.viewDef);
+        ImageView imgdef = findViewById(R.id.newImgDef);
+        def.setVisibility(View.GONE);
+        imgdef.setVisibility(View.VISIBLE);
+        imgdef.setImageResource(R.drawable.sachin);
+        PhotoViewAttacher photoAttacher;
+        photoAttacher= new PhotoViewAttacher(imgdef);
+        photoAttacher.update();
+    }
+
+    public void img9(View view) {
+        TextView def = findViewById(R.id.viewDef);
+        ImageView imgdef = findViewById(R.id.newImgDef);
+        def.setVisibility(View.GONE);
+        imgdef.setVisibility(View.VISIBLE);
+        imgdef.setImageResource(R.drawable.manoj);
+        PhotoViewAttacher photoAttacher;
+        photoAttacher= new PhotoViewAttacher(imgdef);
+        photoAttacher.update();
     }
 }

@@ -53,6 +53,8 @@
 
             <ImageView
                 android:id="@+id/imageView3"
+                android:clickable="true"
+                android:onClick="img2"
                 android:layout_width="96dp"
                 android:layout_height="99dp"
                 android:layout_marginBottom="8dp"
@@ -63,6 +65,8 @@
 
             <ImageView
                 android:id="@+id/imageView4"
+                android:clickable="true"
+                android:onClick="img3"
                 android:layout_width="96dp"
                 android:layout_height="99dp"
                 android:layout_marginBottom="8dp"
@@ -73,6 +77,8 @@
 
             <ImageView
                 android:id="@+id/imageView5"
+                android:clickable="true"
+                android:onClick="img4"
                 android:layout_width="96dp"
                 android:layout_height="99dp"
                 android:layout_marginBottom="8dp"
@@ -83,6 +89,8 @@
 
             <ImageView
                 android:id="@+id/imageView6"
+                android:clickable="true"
+                android:onClick="img5"
                 android:layout_width="96dp"
                 android:layout_height="99dp"
                 android:layout_marginBottom="8dp"
@@ -93,6 +101,8 @@
 
             <ImageView
                 android:id="@+id/imageView7"
+                android:clickable="true"
+                android:onClick="img6"
                 android:layout_width="96dp"
                 android:layout_height="99dp"
                 android:layout_marginBottom="8dp"
@@ -103,6 +113,8 @@
 
             <ImageView
                 android:id="@+id/imageView8"
+                android:clickable="true"
+                android:onClick="img7"
                 android:layout_width="96dp"
                 android:layout_height="99dp"
                 android:layout_marginBottom="8dp"
@@ -113,6 +125,8 @@
 
             <ImageView
                 android:id="@+id/imageView9"
+                android:clickable="true"
+                android:onClick="img8"
                 android:layout_width="96dp"
                 android:layout_height="99dp"
                 android:layout_marginBottom="8dp"
@@ -123,6 +137,8 @@
 
             <ImageView
                 android:id="@+id/imageView10"
+                android:clickable="true"
+                android:onClick="img9"
                 android:layout_width="96dp"
                 android:layout_height="99dp"
                 android:layout_marginBottom="8dp"
@@ -160,7 +176,7 @@
         <ImageView
             android:id="@+id/newImgDef"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="400dp"
             android:visibility="gone"/>
 
     </androidx.cardview.widget.CardView>
